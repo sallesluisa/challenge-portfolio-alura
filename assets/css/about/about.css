@@ -1,0 +1,24 @@
+.about__container{
+  background-color: #EAF2FD;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+
+.about{
+  width: 46.938rem;
+  padding: 64px 0 132px 130px;
+}
+
+.about__title{
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.375rem;
+  color: #464646;
+}
+
+.about__paragraph{
+  font-weight: 400;
+  line-height: 1.188rem;
+  padding-top: 1rem;
+  color: #464646;
+}
