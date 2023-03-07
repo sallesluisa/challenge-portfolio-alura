@@ -1,3 +1,33 @@
-.container{
-  margin: 0 auto;
+::root{
+  --grey-color: #464646
+}
+
+
+.menu__container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 4rem;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.menu{
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+  color: var(--grey-color);
+}
+
+.email{
+  font-weight:700 ;
 }
